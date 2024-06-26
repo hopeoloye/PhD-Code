@@ -69,4 +69,6 @@ imagesc(M.X);
 colorbar;
 xlabel('Covariates and Group');
 ylabel('Subjects');
-title('Design Matrix (M.X)');
+title('Design Matrix (M.X)'); figure
+
+% conflict
