@@ -7,7 +7,7 @@ for i = 1:length(Areas)
     for j = 1:length(Areas)
         parameter_names{end+1} = ['A(', Areas{i}, ' -> ', Areas{j}, ')'];
     end
-end error create! figure;
+end error create! figure; hello!
 
 % Define your true values (if available, otherwise use zeros)
 num_params = length(PEB.Ep); % Number of estimated parameters
